@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- ========================================= -->
+    <!-- HEADER -->
+    <!-- ========================================= -->
+    <header>
+
+        <h1>Yahia Djouadi</h1>
+        <p>Full Stack Web Developer</p>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#work">Work</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- ========================================= -->
+    <!-- MAIN CONTENT -->
+    <!-- ========================================= -->
+    <main>
+
+        <!-- ========================================= -->
+        <!-- HOME SECTION -->
+        <!-- ========================================= -->
+        <section id="home">
+
+            <h2>Home</h2>
+
+            <p>
+                Welcome to my portfolio website.
+                I am a Full Stack Web Developer who enjoys
+                creating responsive and modern websites.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- ========================================= -->
+        <!-- ABOUT SECTION -->
+        <!-- ========================================= -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <img src="profile.jpg" alt="Profile Picture" width="200">
+
+            <p>
+                Hello! My name is Yahia Djouadi.
+                I specialize in Web Development and Artificial Intelligence.
+                I love building modern web applications and solving problems.
+            </p>
+
+            <h3>My Skills</h3>
+
+            <!-- Unordered List -->
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+            </ul>
+
+            <!-- Video -->
+            <h3>My Introduction Video</h3>
+
+            <video width="500" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+
+        <hr>
+
+        <!-- ========================================= -->
+        <!-- WORK SECTION -->
+        <!-- ========================================= -->
+        <section id="work">
+
+            <h2>My Work</h2>
+
+            <p>Here are some projects I have completed:</p>
+
+            <!-- Ordered List -->
+            <ol>
+                <li>Personal Portfolio Website</li>
+                <li>E-Commerce Website</li>
+                <li>Travel Agency Website</li>
+                <li>Restaurant Website</li>
+                <li>AI Chatbot</li>
+            </ol>
+
+            <!-- Projects Table -->
+            <h3>Projects</h3>
+
+            <table border="1" cellpadding="10">
+
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Technology</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Portfolio</td>
+                        <td>HTML & CSS</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>E-Commerce</td>
+                        <td>React</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Travel Website</td>
+                        <td>Next.js</td>
+                        <td>Completed</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- ========================================= -->
+        <!-- RESUME SECTION -->
+        <!-- ========================================= -->
+        <section id="resume">
+
+            <h2>Resume</h2>
+
+            <h3>Education</h3>
+
+            <p>
+                Full Stack Web Development Bootcamp
+            </p>
+
+            <h3>Experience</h3>
+
+            <ul>
+                <li>Freelance Web Developer (2024 - Present)</li>
+                <li>AI Instructor</li>
+                <li>Frontend Developer</li>
+            </ul>
+
+            <h3>Certificates</h3>
+
+            <ul>
+                <li>Full Stack Web Development</li>
+                <li>Python Essentials</li>
+                <li>AI Engineering</li>
+            </ul>
+
+            <!-- Audio -->
+            <h3>Audio Presentation</h3>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <!-- ========================================= -->
+        <!-- CONTACT SECTION -->
+        <!-- ========================================= -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <!-- Contact Form -->
+            <form>
+
+                <!-- Name -->
+                <label for="name">Full Name</label>
+                <br>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <br><br>
+
+                <!-- Phone -->
+                <label for="phone">Phone Number</label>
+                <br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number">
+
+                <br><br>
+
+                <!-- Country -->
+                <label for="country">Country</label>
+                <br>
+
+                <select id="country" name="country">
+                    <option>Algeria</option>
+                    <option>France</option>
+                    <option>Canada</option>
+                    <option>USA</option>
+                </select>
+
+                <br><br>
+
+                <!-- Gender -->
+                <label>Gender</label>
+
+                <br>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+
+                <br><br>
+
+                <!-- Interests -->
+                <label>Interests</label>
+
+                <br>
+
+                <input type="checkbox" id="web">
+                <label for="web">Web Development</label>
+
+                <br>
+
+                <input type="checkbox" id="ai">
+                <label for="ai">Artificial Intelligence</label>
+
+                <br>
+
+                <input type="checkbox" id="design">
+                <label for="design">UI/UX Design</label>
+
+                <br><br>
+
+                <!-- Message -->
+                <label for="message">Message</label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    placeholder="Write your message here..."></textarea>
+
+                <br><br>
+
+                <!-- Buttons -->
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Reset Form">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ========================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================= -->
+    <footer>
+
+        <p><strong>Yahia Djouadi</strong></p>
+
+        <p>Full Stack Web Developer</p>
+
+        <p>Email: yahia@example.com</p>
+
+        <p>Phone: +213 555 123 456</p>
+
+        <p>Location: Algeria</p>
+
+        <p>&copy; 2026 All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>

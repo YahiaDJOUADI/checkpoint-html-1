@@ -1,0 +1,47 @@
+Exercise: Student Registration Page
+🎯 Goal
+
+Create a simple Student Registration webpage.
+
+Requirements
+1️⃣ Add a Header
+Website title: Student Registration
+A short welcome paragraph.
+2️⃣ Use Semantic Tags
+
+Your page must include:
+
+<header>
+<main>
+<section>
+<footer>
+3️⃣ Use a Div
+
+Create a <div> to group the registration form.
+
+4️⃣ Create a Registration Form
+
+The form should contain:
+
+Full Name (text)
+Email (email)
+Password (password)
+Age (number)
+Gender (radio buttons)
+Favorite Programming Language (dropdown)
+Hobbies (checkboxes)
+About Yourself (textarea)
+Submit button
+5️⃣ Create a Table
+
+Below the form, create a table showing:
+
+Name	Age	Country
+Ali	18	Algeria
+Sara	20	Morocco
+John	22	Canada
+6️⃣ Add a Footer
+
+Example:
+
+© 2026 My First HTML Project

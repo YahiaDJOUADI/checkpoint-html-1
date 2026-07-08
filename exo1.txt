@@ -1,0 +1,49 @@
+Exercise: Build Your First HTML Webpage
+🎯 Goal
+
+Create a simple webpage about yourself and your favorite hobby.
+
+Your webpage must include:
+
+✅ A main heading with your name.
+
+✅ A paragraph introducing yourself.
+
+✅ A second heading called "My Favorite Hobby".
+
+✅ A paragraph explaining why you like this hobby.
+
+✅ One image.
+
+✅ One link to your favorite website or YouTube video.
+
+✅ One audio OR one video.
+
+✅ An unordered list of your favorite foods.
+
+✅ An ordered list of three things you want to learn.
+
+Example Structure
+My Name
+
+Hello! My name is ...
+
+My Favorite Hobby
+
+I enjoy ...
+
+(Image)
+
+(Link)
+
+(Video)
+
+Favorite Foods
+• Pizza
+• Burger
+• Ice Cream
+
+Things I Want to Learn
+1. HTML
+2. CSS
+3. JavaScript
